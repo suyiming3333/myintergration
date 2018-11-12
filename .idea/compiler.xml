@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mycommon" />
+        <module name="mydao" />
+        <module name="myentity" />
+        <module name="myservice" />
+        <module name="myweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="my-intergration" target="1.8" />
+      <module name="mycommon" target="1.8" />
+      <module name="mydao" target="1.8" />
+      <module name="myentity" target="1.8" />
+      <module name="myservice" target="1.8" />
+      <module name="myweb" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
