@@ -11,5 +11,13 @@
 
     <artifactId>my-service</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.corn</groupId>
+            <artifactId>my-dao</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
