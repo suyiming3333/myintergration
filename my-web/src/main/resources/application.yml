@@ -11,3 +11,13 @@ spring:
     port: 5672
     username: admin
     password: admin
+  mvc:
+    view:
+      prefix: /html
+      suffix: .html
+
+# size（上传文件大小限制，单位/KB）
+uploadfile:
+  size: 20480
+  type: jpg,png,ico,bmp,jpeg,doc,docx,xls,xlsx,ppt,pptx,pdf,mp4,war
+  path: /data/upload
