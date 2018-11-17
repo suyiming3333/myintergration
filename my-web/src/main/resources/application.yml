@@ -6,3 +6,8 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
+  rabbitmq:
+    host: 192.168.43.164
+    port: 5672
+    username: admin
+    password: admin
